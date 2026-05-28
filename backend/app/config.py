@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     BIBLIOTECA_NOME: str = "Mybookie"
     BIBLIOTECA_ADMIN_EMAIL: str = "admin@mybookie.com"
     BIBLIOTECA_ADMIN_NOME: str = "Administrador"
-    BIBLIOTECA_DESCRICAO: str = "Sistema de gerenciamento de biblioteca para aulas"
+    BIBLIOTECA_DESCRICAO: str = "Sistema de gerenciamento de biblioteca"
     LOG_LEVEL: str = "INFO"
     
     class Config:

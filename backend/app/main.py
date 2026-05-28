@@ -7,6 +7,7 @@ app = FastAPI(
     description="API de Biblioteca"
 )
 
+# CORS
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -31,4 +32,3 @@ async def about():
         "admin_nome": "Administrador",
         "admin_email": "admin@mybookie.com"
     }
-
